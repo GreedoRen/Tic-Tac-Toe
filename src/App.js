@@ -8,9 +8,6 @@ const ROW_ARR = new Array(ROWS).fill('');
 const COL_ARR = new Array(COLUMNS).fill('');
 const GRID = ROW_ARR.map(x => COL_ARR.slice());
 
-// const appStyle = css({
-//   textAlign: 'center'
-// });
 
 class App extends Component {
   state = {
