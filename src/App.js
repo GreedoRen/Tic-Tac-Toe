@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Board from './components/Board';
 import cloneDeep from 'lodash.clonedeep';
+import Board from './components/Board';
+
 
 const ROWS = 3;
 const COLUMNS = 3;

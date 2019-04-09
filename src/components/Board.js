@@ -6,7 +6,7 @@ const Board = ({
   <div>
     {rows.map((row, index) => (
       <Row
-        boxes={row}
+      boxes={row}
       />
     ))}
   </div>

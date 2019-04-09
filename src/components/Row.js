@@ -6,7 +6,7 @@ const Row = ({
   boxes}) => (
   <div className='Row'>
     {boxes.map((box, index) => (
-      <Box  />
+      <Box />
     ))}
   </div>
 );
